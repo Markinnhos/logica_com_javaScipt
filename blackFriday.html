@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackFriday</title>
+</head>
+<body>
+    <script>
+        var preco, porcentagem, nome;
+
+        // Entrada
+        nome=prompt('informe o nome do produto: ')
+        preco=parseFloat(prompt('informe o preço do produto: '))
+        porcentagem=parseFloat(prompt('informe a porcentagem do produto: '))
+
+        //processamento
+        preco = preco - (preco* (porcentagem/100))
+
+        //saida
+        document.write('preço com desconto: ', preco)
+
+    </script>
+</body>
+</html>
