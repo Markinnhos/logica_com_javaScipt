@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function soma(a, b){
+         return a+b   
+    }
+
+    function subtrai(a, b){
+         return a-b  
+    }
+    function multiplica(a, b){
+         return a*b  
+    } 
+    function divide(a, b){
+         return a/b  
+    }      
+
+        let num1 = parseInt(prompt("informe o 1° numero: "))
+        let num2 = parseInt(prompt("informe o 2° numero: "))
+        let resultado = soma(num1, num2)
+        document.write(`<p>A a soma entre ${num1} e ${num2} e: ${resultado}`)
+        resultado = subtrai(num1, num2)
+        document.write(`<p>A a soma entre ${num1} e ${num2} e: ${resultado}`)
+        resultado = multiplica(num1, num2)
+        document.write(`<p>A a soma entre ${num1} e ${num2} e: ${resultado}`)
+        resultado = divide(num1, num2)
+        document.write(`<p>A a soma entre ${num1} e ${num2} e: ${resultado}`)
+
+    </script>
+</body>
+</html>

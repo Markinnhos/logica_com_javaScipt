@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function divisao(a, b){
+            if (b !== 0) {
+                document.write(`<p>A divisão entre ${a} e ${b} é: ${a / b}</p>`);
+            } else {
+                document.write("<p>Não é possível dividir por zero.</p>");
+            }
+        }
+
+        let num1 = parseInt(prompt("Informe o 1° número: "));
+        let num2 = parseInt(prompt("Informe o 2° número (diferente de zero): "));
+        divisao(num1, num2);
+    </script>
+</body>
+</html>
